@@ -1,0 +1,5 @@
+Email syntax documentation
+
+The address reader@example.org is a fictional illustrative address.
+The address user@example.com is also only a test placeholder.
+This document supplies no operational correspondence mailbox.

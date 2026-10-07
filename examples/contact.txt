@@ -1,0 +1,7 @@
+Publishing notice
+
+The operational correspondence address for this document is editor@samplepublisher.test.
+Please send correspondence to that address. It is not an email syntax example.
+
+In a separate documentation example, a fictional user enters user@example.com.
+The latter is a reserved-domain placeholder, not an operational contact.

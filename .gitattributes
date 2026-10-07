@@ -1,0 +1,5 @@
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
