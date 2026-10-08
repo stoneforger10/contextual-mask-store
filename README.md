@@ -2,6 +2,10 @@
 
 Source-bound contextual email masking and immutable, hash-addressed rendering for GenLayer. Experimental; not a privacy vault, universal PII detector, or audited production deployment.
 
+## Live deployment
+
+[StudioNet contract](https://explorer-studio.genlayer.com/address/0x6BdA7537FcE3Bf084A8f5ADB85B7Eaf6A70c6264). Deployed source matches commit `78d75851cf5263e46f76c0bd0e7e0d61a01df921`. See [LIVE_PROOFS.md](LIVE_PROOFS.md) for independently checked receipts and artifact readbacks, and [SUBMISSION.md](SUBMISSION.md) for contribution text. GenVM lint and SDK validation pass; 25 mocked direct tests pass. These tests do not establish distributed validator agreement or an independent security audit.
+
 ## Problem and consensus boundary
 
 An email-shaped string can be an operational contact, a fictional syntax example, or an ambiguous reference. Blind regular-expression replacement destroys useful examples; blindly keeping them can leave operational contacts in the rendered text. A deterministic chain can find byte/character spans but cannot reliably interpret their use in prose.
